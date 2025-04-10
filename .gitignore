@@ -1,0 +1,3 @@
+mlops/minio_data/
+mlops/db_data/
+tornadovm-training/.venv/
