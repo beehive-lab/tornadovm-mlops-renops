@@ -1,0 +1,6 @@
+Threads,Global Memory Loads,Global Memory Stores,target_class
+4,120,80,1
+2,100,60,0
+6,130,90,1
+8,140,100,0
+
