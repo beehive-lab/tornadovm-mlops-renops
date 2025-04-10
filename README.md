@@ -1,5 +1,5 @@
 # tornadovm-mlops-renops
-This repository shows how a ML model for TornadoVM can be trained using MLOPs and use the RENOPS scheduler to schedule the training process.
+This repository shows how a ML model for TornadoVM can be trained using MLOPs and use the [RENOPS scheduler](https://pypi.org/project/renops-scheduler/) to schedule the training process.
 
 # 1. Clone the repository
 ```bash
