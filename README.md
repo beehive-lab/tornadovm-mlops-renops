@@ -66,7 +66,7 @@ google-chrome http://127.0.0.1:5001/
 
 # 6. Stop the MLOps container
 ```bash
-./mlops/start_mlops_container.sh
+./mlops/stop_mlops_container.sh
 ```
 
 # Acknowledgments
