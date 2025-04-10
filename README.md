@@ -70,3 +70,6 @@ google-chrome http://127.0.0.1:5001/
 ```bash
 ./mlops/start_mlops_container.sh
 ```
+
+# Acknowledgments
+This work is funded by the European Union's Horizon Europe programme under grant agreement No 101070052 and the UK Reseach and Innovation Horizon Europe guarantee scheme grant No 10039107 ([TANGO](https://tango-project.eu/)).
