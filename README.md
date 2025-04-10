@@ -59,9 +59,10 @@ google-chrome http://127.0.0.1:5001/
 ```
 
 ### iii. Observe the MLFlow window and see the tracked information for the trained model
-![Screenshot from 2025-04-10 12-47-37](https://github.com/user-attachments/assets/8163595a-9327-423f-a440-06c2df7e1f6a)
+![Screenshot from 2025-04-10 15-40-50](https://github.com/user-attachments/assets/3f7377fa-2af4-4a3f-96b5-388fd4457cd8)
 
-![Screenshot from 2025-04-10 12-48-09](https://github.com/user-attachments/assets/7aac0053-c00d-41a7-95fd-2fb91c6cdb3c)
+![Screenshot from 2025-04-10 15-41-17](https://github.com/user-attachments/assets/2e153b9a-d2f1-411c-81a3-fc2f6d021f5c)
+
 
 # 6. Stop the MLOps container
 ```bash
