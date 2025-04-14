@@ -1,24 +1,25 @@
-# tornadovm-mlops-renops
+# TornadoVM-MLOps-RENOPS
+
 This repository shows how a ML model for TornadoVM can be trained using: 
 - MLOPs to track the training properties.
 - [RENOPS scheduler](https://pypi.org/project/renops-scheduler/) to schedule the training process when cost is lower.
 
-# 1. Clone the repository
+## 1. Clone the repository
 ```bash
 git clone https://github.com/stratika/tornadovm-mlops-renops.git
 ```
 
-# 2. Move into the project directory
+## 2. Move into the project directory
 ```bash
 cd tornadovm-mlops-renops
 ```
 
-# 3. Load environment variables
+## 3. Load environment variables
 ```bash
 source load_variables.sh
 ```
 
-# 4. Start the MLOps container
+## 4. Start the MLOps container
 ```bash
 ./mlops/start_mlops_container.sh
 ```
@@ -28,7 +29,7 @@ source load_variables.sh
 google-chrome http://127.0.0.1:5001/
 ```
 
-# 5. Run the training of the TornadoVM model with RENOPS
+## 5. Run the training of the TornadoVM model with RENOPS
 
 ### i. The first time install the Python dependencies for the training
 ```bash
@@ -66,10 +67,20 @@ google-chrome http://127.0.0.1:5001/
 ![Screenshot from 2025-04-10 15-41-17](https://github.com/user-attachments/assets/2e153b9a-d2f1-411c-81a3-fc2f6d021f5c)
 
 
-# 6. Stop the MLOps container
+## 6. Stop the MLOps container
 ```bash
 ./mlops/stop_mlops_container.sh
 ```
 
 # Acknowledgments
 This work is funded by the European Union's Horizon Europe programme under grant agreement No 101070052 and the UK Reseach and Innovation Horizon Europe guarantee scheme grant No 10039107 ([TANGO](https://tango-project.eu/)).
+
+## License
+
+This project uses a two-licenses scheme. The `mlops` folder is licensed under the GNU Affero General Public License v3.0. Whereas, the `tornadovm-training` folder is licensed under Apache 2.0.
+
+| Module                         | License                                                                                                                                                                          |
+|--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| mlops                          | [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://github.com/beehive-lab/tornadovm-mlops-renops/blob/main/mlops/LICENSE)                    |
+| tornadovm-training             | [![License: Apache 2](https://img.shields.io/badge/License-Apache%202.0-red.svg)](https://github.com/beehive-lab/tornadovm-mlops-renops/blob/main/tornadovm-training/LICENSE)    |
+
